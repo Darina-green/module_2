@@ -26,16 +26,30 @@
 			padding-bottom: 10px;
 			text-align: justify;
 	}
-	.names
+	.names1
 	{
 		float: right;
 		height: 90px;
 		width: 250px;
 		background-color: black;
 	}
+	.names2
+	{
+		float: right;
+		height: 90px;
+		width: 250px;
+		background-color: stategray;
+	}
+	.names3
+	{
+		float: right;
+		height: 90px;
+		width: 250px;
+		background-color: dimgray;
+	}
 	.item{
 		background-color: orange;
-		border: 2px solid red;
+		border: 1px solid black;
 		margin-bottom: 20px;
 		height: 300px;
 		overflow: auto;
@@ -43,7 +57,6 @@
 	.row
 	{
 		width: 100%;
-		/*margin-left: 20px;*/
 		margin-right: 3%;
 	}
 	@media(min-width: 992px){
@@ -52,11 +65,11 @@
 		}
  .col_1, .col_2, .col_3{
 
- 	background-color: orange;
+ 	background-color: pink;
  	float: left;
- 	color: magenta;
+ 	color: black;
  	font-size: 30px;
- 	border: 2px solid red;
+ 	border: 1px solid black;
  	margin-left: 2%;
  	margin-bottom: 30px;
  	height: 300px;
@@ -78,11 +91,11 @@ width: 100%;
 		}
  .col_1m, .col_2m, .col_3m{
 
- 	background-color: orange;
+ 	background-color: pink;
  	float: left;
- 	color: magenta;
+ 	color: black;
  	font-size: 30px;
- 	border: 2px solid red;
+ 	border: 1px solid black;
  	margin-left: 2%;
  	margin-bottom: 25px;
  	height: 300px;
